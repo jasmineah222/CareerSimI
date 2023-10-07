@@ -1,0 +1,9 @@
+body {
+    Background-color: rgb(235, 151, 112);
+}
+
+.navbar {
+    background-color: rgb(235, 151, 112);
+    font-size: 25px;
+    font-family: Cambria;
+}
