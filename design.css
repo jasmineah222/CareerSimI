@@ -1,15 +1,81 @@
 body {
-    Background-color: rgb(235, 151, 112);
+    background-color: rgb(240, 119, 189);
+    font-family: Cambria;
+    font-size: 20px;
+    margin: 0;
 }
 
 .navbar {
-    background-color: rgb(235, 151, 112);
+    background-color: rgb(207, 65, 89);
+    font-style: 25px Cambria;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    height:12.5%;
+    width: 100%;
+    z-index: 1;
+}
+
+#name {
     font-size: 25px;
     font-family: Cambria;
+    padding: 1px;
 }
+
+#navtitles {
+    font-size: 25px;
+    font-family: Cambria;
+    padding: 1px;
+}
+
+.navblock {
+    background-color:white;
+    display: flex;
+    height:50%;
+    width:100%;
+}
+
 
 .profile {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pastwork {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    position:relative;
+    top: 35px;
+}
+
+h2{
+    margin-left: 8px;
+}
+
+.headblock {
+    padding: 10px
+}
+
+img {
+    border-color:rgb(240, 119, 189);
+    border-radius: 250px;
+}
+
+.contactinfo {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 0;
 }

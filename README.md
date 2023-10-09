@@ -1,1 +1,2 @@
 # CareerSimI
+<!-- This project was created for showcasing Jasmine Henderson, an employee at Fullstack Academy. The about page will show her unique skills that she brings to the team. The home page will explore her career journey that led her to joining the team. And the portfolio page will show her credentials in action and why she is a great addition to the team!.-->
