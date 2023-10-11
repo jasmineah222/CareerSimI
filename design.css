@@ -10,8 +10,8 @@ body {
     font-style: 25px Cambria;
     align-items: center;
     display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     position: fixed;
     top: 0;
     height:10%;
@@ -19,25 +19,22 @@ body {
     z-index: 1;
 }
 
+
 #name {
-    font-size: 25px;
+    font-size: 35px;
     font-family: Cambria;
     padding: 1px;
 }
 
-#navtitles {
-    font-size: 25px;
+
+.navtitles {
+    font-size: 20px;
     font-family: Cambria;
-    padding: 1px;
+    justify-content: space-around;
+    border: black solid 10px;
+    background-color: black;
+    border-radius: 25px;
 }
-
-.navblock {
-    background-color:white;
-    display: flex;
-    height:50%;
-    width:100%;
-}
-
 
 .profile {
     display: block;
@@ -65,10 +62,10 @@ h2{
 
 img {
     border-color:rgb(240, 119, 189);
-    border-radius: 250px;
+    border-radius: 150px;
 }
 
-.contactinfo {
+.resume {
     background-color: black;
     height: 70px;
     width: 100%;
@@ -79,3 +76,23 @@ img {
     position: relative;
     bottom: 0;
 }
+
+a:link {
+    color:white;
+}
+
+a:visited{
+    color:purple;
+}
+
+.resume > a:hover {
+    transform: translateY(-5px);
+    color: pink;
+}
+
+.navtitles > a:hover {
+    color: pink;
+}
+
+
+
