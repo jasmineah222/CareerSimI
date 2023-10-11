@@ -19,7 +19,6 @@ body {
     z-index: 1;
 }
 
-
 #name {
     font-size: 35px;
     font-family: Cambria;
@@ -57,7 +56,7 @@ h2{
 }
 
 .headblock {
-    padding: 10px
+    padding: 10px;
 }
 
 img {
@@ -67,7 +66,7 @@ img {
 
 .resume {
     background-color: black;
-    height: 70px;
+    height: 75px;
     width: 100%;
     align-items: center;
     display: flex;
@@ -82,7 +81,7 @@ a:link {
 }
 
 a:visited{
-    color:purple;
+    color:lightskyblue;
 }
 
 .resume > a:hover {
