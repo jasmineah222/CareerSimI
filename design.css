@@ -1,11 +1,4 @@
-body {
-    background-color: rgb(240, 119, 189);
-    font-family: Cambria;
-    font-size: 20px;
-    margin: 0;
-}
-
-.navbar {
+nav {
     background-color: rgb(207, 65, 89);
     font-style: 25px Cambria;
     align-items: center;
@@ -19,14 +12,31 @@ body {
     z-index: 1;
 }
 
+body {
+    background-color: rgb(240, 119, 189);
+    font-family: Cambria;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+h1{
+    position:relative;
+    top: 35px;
+}
+
+h2{
+    margin-left: 8px;
+}
+
+
 #name {
     font-size: 35px;
     font-family: Cambria;
     padding: 1px;
+    transform: translateX(-75px);
 }
 
-
-.navtitles {
+div > a {
     font-size: 20px;
     font-family: Cambria;
     justify-content: space-around;
@@ -46,15 +56,6 @@ body {
     flex-direction: column;
 }
 
-h1{
-    position:relative;
-    top: 35px;
-}
-
-h2{
-    margin-left: 8px;
-}
-
 .headblock {
     padding: 10px;
 }
@@ -72,25 +73,35 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    bottom: -150%;
+}
+
+a{
+    border: black solid 10px;
+    border-radius: 25px;
+    background-color: black;
+    padding: 2px;
 }
 
 a:link {
-    color:white;
-}
-
-a:visited{
     color:lightskyblue;
 }
 
-.resume > a:hover {
-    transform: translateY(-5px);
-    color: pink;
+a:visited{
+    color:white;
 }
 
-.navtitles > a:hover {
+a:hover {
     color: pink;
+    transform: translateY(-5px);
+}
+
+@media (max-width:1050px) {
+    html{
+        width: 100% vw;
+        height: 100% vh;
+    }
 }
 
 
