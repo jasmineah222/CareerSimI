@@ -51,10 +51,18 @@ h2{
     font-size: 25px;
 }
 
-.profile {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#name{
+    font-size: 20px;
+}
+
+#profile {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 60%;
+    height: 90%;
+    border-radius: 1950px;
+    image-rendering: optimizeQuality;
 }
 
 .pastwork {
@@ -109,6 +117,12 @@ div > #sub-btn{
     margin-left: 10px;
 }
 
+#success{
+    position: relative;
+    top: 75px;
+    margin-left: 8px;
+}
+
 @media (min-width: 280px) {
 
     div > a{
@@ -147,12 +161,60 @@ div > #sub-btn{
     .message > textarea {
         width: 97.5%;
     }
+
+    .profile {
+        display: block;
+        position: relative;
+        top: 200px;
+        image-rendering: optimizeQuality;
+    }
 }
 
-@media (min-height: 650px) {
+@media (max-width: 800px) {
+        .profile {
+        margin-left: calc(5%);
+    }
+}
+
+@media (max-width: 750px) {
+        .profile {
+        margin-left: calc(5%);
+    }
+}
+
+@media (max-width: 890px) {
+        .profile {
+        max-width: 90%;
+        position: relative;
+        image-rendering: optimizeQuality;
+    }
+}
+
+@media (max-width: 700px) {
+        .profile {
+        max-width: 90%;
+        max-height: 150%;
+        position: relative;
+        top: calc(20px+ 100px);
+        image-rendering: optimizeQuality;
+        
+    }
+}
+
+@media (min-width: 1300px) {
     .resume {
         bottom: -340%;
     }
 }
+
+@media (max-height: 780px){
+    .resume {
+        bottom: -800%;
+    }
+}
+
+
+
+
 
 
