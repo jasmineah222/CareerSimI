@@ -133,6 +133,7 @@ div > a:hover {
 
     .headblock > img {
         transform: translateY(10px);
+        width: 75%;
     }
 }
 
