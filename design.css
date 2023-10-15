@@ -172,13 +172,13 @@ div > #sub-btn{
 
 @media (max-width: 800px) {
         .profile {
-        margin-left: calc(5%);
+        margin-left: 5%;
     }
 }
 
 @media (max-width: 750px) {
         .profile {
-        margin-left: calc(5%);
+        margin-left: 5%;
     }
 }
 
@@ -201,9 +201,15 @@ div > #sub-btn{
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1000px) {
     .resume {
         bottom: -340%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .resume {
+        bottom: -540%;
     }
 }
 
